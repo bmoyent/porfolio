@@ -1,6 +1,11 @@
 body {
   background: #000;
-  color: #fff
+  color: #fff;
+  height: 100%;
+}
+
+html {
+  height: 100%;
 }
 
 h1 {
@@ -8,7 +13,12 @@ h1 {
 }
 
 header {
-  background: #b89090
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  z-index: 800;
+  background-color: #fff;
 }
 
 nav {
