@@ -4,6 +4,8 @@
       <title>Brendan Moy</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
+      <!-- css for slider -->
+      <link rel="stylesheet" type="text/css" href="./assets/slider.css">
       <link rel="stylesheet" type="text/css" href="main.css">
       <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
@@ -14,8 +16,145 @@
 
     <body class="container-fluid">
 <header>Header</header>
-<nav>Nav Bar</nav>
-<main>Main Bar</main>
+
+    <nav>Nav Bar</nav>
+
+    <main>Main Bar
+
+
+
+
+<!-- slider  -->
+<section id="lab_video_slider">
+  <div class="container-fluid">
+    <div class="row">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+      <!-- Link Swiper's CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/css/swiper.min.css">
+
+      <!-- Swiper -->
+    <div class="swiper-container">
+
+      <div class="swiper-wrapper">
+
+          <div id="slide_one" class="swiper-slide">
+
+            <!-- video one text overlay -->
+            <div id="lab_video_text_overlay">
+              <div class="container">
+                <h1>Tic-Tac-Toe Game</h1>
+                <h4 class="sm-text-center">HTML, CSS3, jQUERY, JavaScript, GIT/GITHUB, SASS</h4>
+                <p class="fs-12 font-arial hint-text sm-text-center">James Bond 007 Themed Tic-Tac-Toe Game</p>
+
+                <a href="" class="btn btn-default">Play the game!</a>
+
+              </div>
+            </div>
+            <!-- end #lab_overlay -->
+
+
+              <!-- VIDEO -->
+              <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="https://static.pexels.com/photos/221415/pexels-photo-221415.jpeg">
+                <source src="https://storage.googleapis.com/coverr-main/mp4/Snowy-Bench.mp4" type="video/mp4">
+                  <!-- <source src="//dl.dropbox.com/s/g3mo3w34pb8pp2l/working-with-espresso.webm" type="video/webm">
+                    <source src="//dl.dropbox.com/s/p37f0avio0x6bs8/working-with-espresso.ogv" type="video/ogg"> -->
+              </video>
+              <!-- END VIDEO -->
+
+          </div>
+
+
+          <div id="slide_two" class="swiper-slide">
+
+              <div id="lab_video_text_overlay">
+                <div class="container">
+                  <h2>Lorum Ipsum Deloras </h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc molestie</p>
+                  <a href="#" class="btn btn-default">View Our Work</a>
+                  <a href="#" class="btn btn-warning">Learn About Us</a>
+
+                </div>
+              </div>
+              <!-- end #lab_overlay -->
+
+
+              <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="https://www.sistrix.com/screenshots/ed7e7abcefc0df5eb5aecfa3218edaba.png">
+                  <source src="https://storage.googleapis.com/coverr-main/mp4/Snowy-Bench.mp4" type="video/mp4">
+              </video>
+
+          </div>
+
+
+          <div id="slide_three" class="swiper-slide">
+
+            <div id="lab_video_text_overlay">
+
+              <div class="container">
+                <h2>Lorum Ipsum Deloras </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc molestie</p>
+                <a href="#" class="btn btn-default">View Our Work</a>
+                <a href="#" class="btn btn-warning">Learn About Us</a>
+              </div>
+
+             <!-- VIDEO -->
+            <video class="slider-video" width="100%" preload="auto" loop="" autoplay="" style="visibility: visible; width: 100%;" poster="//dl.dropbox.com/s/5aeyg9ntj1fs8v1/typing-numbers.jpg">
+              <source src="//dl.dropbox.com/s/xmosdvoleruexky/typing-numbers.mp4" type="video/mp4">
+                <source src="//dl.dropbox.com/s/13z1t97pcvka88k/typing-numbers.webm" type="video/webm">
+                  <source src="//dl.dropbox.com/s/5pyuc35wnv5khe1/typing-numbers.ogv" type="video/ogg">
+            </video>
+            <!-- END VIDEO -->
+          </div>
+      </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <!-- Swiper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.2.5/js/swiper.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            spaceBetween: 30,
+            autoplay: 5000,
+            autoplayDisableOnInteraction: false
+        });
+      </script>
+    </div>
+    <!-- end .row -->
+  </div>
+  <!-- end .container-->
+  </div>
+  <!-- end of slider -->
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <article>
   <h3>About Me</h3>
   <img src="https://i.imgur.com/2dYES39.jpg" alt="profile" height="150">

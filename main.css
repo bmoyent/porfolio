@@ -13,38 +13,40 @@ h1 {
 }
 
 header {
-  position: fixed;
   top: 0;
   height: 60px;
-  width: 100%;
-  z-index: 800;
+  width: 30%;
   background-color: #fff;
+  float: left;
 }
 
 nav {
-  background: #694156
+  background: #694156;
+  float: left;
 }
 
 main {
-  background: #800040
+  background: white;
+  clear: both;
 }
 
 article {
-  background: #77dd7e
+  background: #77dd7e;
+  clear: both;
 }
 
 section {
-  background: #ffe4e1
+  background: #ffe4e1;
 }
 
 div {
-  background: #b89090
+  background: #b89090;
 }
 
 aside {
-  background: #b89090
+  background: #b89090;
 }
 
 footer {
-  background: #b89090
+  background: #b89090;
 }
