@@ -1,7 +1,8 @@
 body {
-  background: #000;
+  background: gray;
   color: #fff;
   height: 100%;
+  padding-top: 100px;
 }
 
 html {
@@ -12,35 +13,39 @@ h1 {
   color: #FF2734;
 }
 
-header {
-  top: 0;
-  height: 60px;
-  width: 30%;
-  background-color: #fff;
-  float: left;
-}
 
 nav {
-  background: #694156;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 98.37%;
+  padding: 1px;
+  top: 0;
+}
+
+nav a {
   float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 main {
-  background: white;
+  background: gray;
   clear: both;
 }
 
 article {
   background: #77dd7e;
   clear: both;
+  height: 500px;
 }
 
 section {
   background: #ffe4e1;
-}
-
-div {
-  background: #b89090;
 }
 
 aside {

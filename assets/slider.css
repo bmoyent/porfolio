@@ -6,7 +6,7 @@
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: black;
   /* Center slide text vertically */
 
   display: -webkit-box;
@@ -34,20 +34,22 @@
   font-weight:200;
 }
 #lab_video_text_overlay .btn-warning {
-  background-color:#F5D328;
+  background-color: black;
 }
 
 #lab_video_text_overlay {
   position: absolute;
-  color: #FFF;
+  color: white;
   width: 100%;
-  top: 25%;
+  top: 40%;
+  background-color: black;
 }
 
 #lab_video_text_overlay .container {
   text-align: center;
   margin: 0px auto;
-  background-color: #669900;
+  background-color: black;
+  width: 100%;
 }
 
 @media screen and (max-width:991px) {
