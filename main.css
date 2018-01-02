@@ -1,40 +1,57 @@
 body {
-  background: #000;
-  color: #fff
+  background: gray;
+  color: #fff;
+  height: 100%;
+  padding-top: 100px;
+}
+
+html {
+  height: 100%;
 }
 
 h1 {
   color: #FF2734;
 }
 
-header {
-  background: #b89090
-}
 
 nav {
-  background: #694156
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 98.37%;
+  padding: 1px;
+  top: 0;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 main {
-  background: #800040
+  background: gray;
+  clear: both;
 }
 
 article {
-  background: #77dd7e
+  background: #77dd7e;
+  clear: both;
+  height: 500px;
 }
 
 section {
-  background: #ffe4e1
-}
-
-div {
-  background: #b89090
+  background: #ffe4e1;
 }
 
 aside {
-  background: #b89090
+  background: #b89090;
 }
 
 footer {
-  background: #b89090
+  background: #b89090;
 }
